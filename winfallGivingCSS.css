@@ -1,0 +1,119 @@
+body {  
+   font-family: 'Open Sans', sans-serif;
+   margin-top: 15px;
+}
+
+.bubble {
+ color: darkgreen;
+ font-family: calibri;
+}
+
+.top-info {
+ padding: 0;
+ margin: 20px 0 5px 0;
+}
+
+.top-info h1 {
+ padding: 5px 0 5px 0;
+}
+
+.top-info h2 {
+ padding: 5px 0 5px 0;
+}
+
+.top-info h3 {
+ padding: 5px 0 5px 0;
+ margin: 0 0 5px 0;
+}
+.project-intro {
+ padding-top: 10px;
+}
+
+.project-intro h3 {
+ font-weight: bold;
+}
+
+.special-text {
+ background-color: aquamarine;
+}
+
+.bio {
+ background-color: darkgrey;
+ color: black;
+}
+
+.bio-pic {
+ margin-bottom: 10px;
+ border-radius: 8px;
+}
+
+.bio li a{
+ color: black;
+}
+
+.bio li a:hover {
+ color: #454356;
+ text-decoration: none;
+}
+
+.contact-details ul li {
+ list-style-type: none;
+}
+
+.contact-details ul li a {
+ font-size: 1.3em;   
+}
+
+.contact-details ul li a:hover {
+ color: white;   
+}
+.project-details h4 {
+font-weight: bold;
+}
+
+.project-details h3{
+ font-weight: bold;
+}
+
+.more-details a {
+ font-size: 1.5em;  
+}
+
+.more-details ul li a:hover {
+ color: white;  
+}
+
+.additional {
+ background-color: darkgray;
+ color: white;
+ padding: 15px;
+}
+
+.additional a {
+ color: white;
+}
+
+.additional a:hover {
+ color: #454356;
+ text-decoration: none;
+}
+h1 {
+ font-weight: bold;
+ margin: 0;
+ padding: 5px 0 5px 0;
+}
+
+h2 {
+ margin: 0;
+ padding: 5px 0 5px 0;
+}
+
+h3 {
+ margin: 0;
+ padding: 5px 0 5px 0;
+}
+
+h4 {
+ margin: 0;
+ padding: 5px 0 5px 0;
+}
