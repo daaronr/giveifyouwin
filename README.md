@@ -24,5 +24,10 @@ Q:  is there a way to allow the public to make suggestions/comments ... with or 
 
 > If you're using GitHub Desktop, click Clone in Desktop to copy the wiki to your computer. Once you have cloned the wiki, you can add new files, edit existing ones, and commit your changes. You and your collaborators can create branches when working on wikis, but only changes pushed to the master branch will be made live and available to your readers.
 
+#Wish list (for wiki)
+
+1. Automated content bar (ToC for each page)
+1. Automate (?) 'reference' section at the bottom of each page (or are these simply 'footnotes'?)
+1. 'Template' indexing across articles in the same theme (see bottom of a Wiki page, e.g., [Fundraising](https://en.wikipedia.org/wiki/Nonprofit_organization)
 
 
