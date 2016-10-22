@@ -27,7 +27,9 @@ Q:  is there a way to allow the public to make suggestions/comments ... with or 
 #Wish list (for wiki)
 
 1. Automated content bar (ToC for each page)
-1. Automate (?) 'reference' section at the bottom of each page (or are these simply 'footnotes'?)
+1. Automate (?) 'reference' section at the bottom of each page (or are these simply 'footnotes'?); 
+  - can we integrate a citation tool as in Authorea?
 1. 'Template' indexing across articles in the same theme (see bottom of a Wiki page, e.g., [Fundraising](https://en.wikipedia.org/wiki/Nonprofit_organization)
+1. Other elements from Wikipedia
 
 
