@@ -20,3 +20,9 @@ Q:  is there a way to allow the public to make suggestions/comments ... with or 
 
 - DR: the latter should be useful and faster and maybe less likely to cause an error if the hyperlink changes?
 
+##Editing offline ('cloning')
+
+> If you're using GitHub Desktop, click Clone in Desktop to copy the wiki to your computer. Once you have cloned the wiki, you can add new files, edit existing ones, and commit your changes. You and your collaborators can create branches when working on wikis, but only changes pushed to the master branch will be made live and available to your readers.
+
+
+
