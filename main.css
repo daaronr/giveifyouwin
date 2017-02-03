@@ -32,14 +32,14 @@ header .btn-header:hover {
   text-decoration: none;
 }
 
-.jumbotron {
-  height: 100vh;
+#main-content {
   display: flex;
   align-items: center;
+  background-color: rgba(211, 211, 211, 0.8);
 }
 
 footer .container {
-  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 footer a {
@@ -50,4 +50,12 @@ footer a {
 footer a:hover{
   color: grey;
   text-decoration: none;
+}
+
+#indexheader {
+  font-size: 5rem;
+}
+
+#indexcontent {
+  font-size: 2rem;
 }
