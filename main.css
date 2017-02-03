@@ -33,8 +33,7 @@ header .btn-header:hover {
 }
 
 #main-content {
-  display: flex;
-  align-items: center;
+  font-size: 1.75rem;
   background-color: rgba(211, 211, 211, 0.8);
 }
 
@@ -48,15 +47,40 @@ header .btn-header:hover {
   text-decoration: none;
 }
 
+#wrapper {
+  border-top: solid 2px black;
+}
+
+#indexheader {
+  font-size: 5rem;
+}
+
+#indexcontent {
+  font-size: 2rem;
+}
+
 #csr-image {
   max-width: 70%;
   border-radius: 4px;
   margin-bottom: 10px;
 }
 
+#david-image {
+  border: solid black 2px;
+  border-radius: 4px;
+}
+
+#faq-heading {
+  font-weight: bold;
+}
+
 ul {
   list-style: none;
   text-align: left;
+}
+
+ol {
+  text-align: justify;
 }
 
 footer .container {
@@ -71,12 +95,4 @@ footer a {
 footer a:hover{
   color: grey;
   text-decoration: none;
-}
-
-#indexheader {
-  font-size: 5rem;
-}
-
-#indexcontent {
-  font-size: 2rem;
 }
