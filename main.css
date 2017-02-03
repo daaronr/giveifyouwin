@@ -54,7 +54,7 @@ header .btn-header:hover {
   margin-bottom: 10px;
 }
 
-#resourcelinks {
+ul {
   list-style: none;
   text-align: left;
 }
