@@ -38,6 +38,12 @@ header .btn-header:hover {
   background-color: rgba(211, 211, 211, 0.8);
 }
 
+#csr-image {
+  max-width: 70%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
 footer .container {
   margin-top: 15px;
 }
