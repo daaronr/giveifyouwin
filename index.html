@@ -17,10 +17,11 @@
   integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
   crossorigin="anonymous"></script>
 
-  <!-- Import font -->
-  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+  <!-- Import fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
 
-  <link rel="stylesheet" type="text/css" href="main.css">
+  <!-- Style sheet(s)-->
+  <link rel="stylesheet" type="text/css" href="style/main.css">
 
   <title>Give If You Win</title>
 </head>
@@ -28,21 +29,29 @@
 <body>
   <header class="container-fluid">
     <div class="row">
-      <a href="index.html"><h1 class="col-md-4" id="mainheader">Give If You Win</h1></a>
-      <nav class="col-md-8">
-        <a class="btn-header" href="findoutmore.html" role="button">Find out more</a>
-        <a class="btn-header" href="behindthis.html" role="button">Who is behind this?</a>
-        <a class="btn-header" href="getinvolved.html" role="button">Get Involved</a>
+      <div class="col-md-12">
+        <h1 id="mainHeading">Give If You Win</h1>
+      </div>
+    </div>
+    <div class="masthead">
+      <nav>
+        <ul class="nav nav-justified">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Find out more</a></li>
+          <li><a href="#">Who is behind this?</a></li>
+          <li><a href="#">Get involved</a></li>
+        </ul>
       </nav>
     </div>
   </header>
-  <section class="container-fluid" id="main-content">
+
+  <section class="container-fluid" id="mainContent">
     <div class="container">
       <div class="row text-center">
         <div class="col-md-2"> </div>
         <div class="col-md-8">
-        <h1 id="indexheader">What is 'give if you win'?</h1>
-        <p id="indexcontent">
+        <h2 class="text-center">What is 'give if you win'?</h2>
+        <p class="text-justify">
           Millions of employees anticipate end-of-year bonuses and performance-dependent income,
           particularly in finance and sales. Before these are announced many are uncertain of what
           size reward, if any, they will get. There is evidence from behavioural economics and psychology
@@ -58,12 +67,7 @@
 
   <footer class="footer">
     <div class="container">
-      <div class="row text center">
-        <p>
-          This project is ESRC-funded.
-          <a href="http://www.esrc.ac.uk/" target="_blank"> Find out more about the ESRC.</a>
-        </p>
-      </div>
+      <p>This project is ESRC-funded. <a href="http://www.esrc.ac.uk/" target="_blank"> Find out more about the ESRC.</a></p>
     </div>
   </footer>
 

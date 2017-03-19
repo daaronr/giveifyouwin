@@ -1,0 +1,71 @@
+/* General page layout styling */
+
+.body {
+  font-family: "Times New Roman";
+  font-style: bold;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: ;
+  border-top: 1px solid;
+}
+
+.footer p {
+  margin: 5px;
+  font-family: "Times New Roman";
+}
+
+/* Navbar styling */
+
+.masthead {
+  font-family: "Times New Roman";
+  font-size: 125%;
+  border-top: 1.5px grey solid;
+  border-bottom: 1.5px grey solid;
+}
+
+.nav-justified > li > a {
+  color: black;
+  background-color: rgba(154, 29, 22, 0.5);
+}
+
+.nav-justified > li > a:hover,
+.nav-justified > .active > a:hover {
+  background-color: rgba(154, 29, 22, 0.3)
+}
+
+.nav-justified > .active {
+  background-color: rgba(99, 100, 100, 0.25);
+}
+
+/* Element-specific styling */
+
+#mainHeading {
+  font-family: 'Handlee', 'Times New Roman';
+  font-size: 500%;
+  text-align: center;
+}
+
+#mainContent {
+  font-family: "Times New Roman";
+}
+
+#mainContent h2 {
+  font-weight: bold;
+  font-size: 300%;
+}
+
+#mainContent p {
+  font-size: 150%;
+}
