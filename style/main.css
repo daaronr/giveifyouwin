@@ -23,10 +23,11 @@ body {
   height: 40px;
   background-color: ;
   border-top: 1px solid;
+  margin-top: 10px;
 }
 
 .footer p {
-  margin: 5px;
+  margin: 10px;
   font-family: "Times New Roman";
 }
 
@@ -66,10 +67,33 @@ body {
 }
 
 #mainContent h2 {
+  font-family: "Helvetica Neue";
   font-weight: bold;
   font-size: 300%;
 }
 
+#mainContent h3 {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 250%;
+}
+
 #mainContent p {
   font-size: 150%;
+  margin-top: 5px;
+}
+
+#mainContent ol {
+  font-size: 150%;
+}
+
+#mainContent ul> li {
+  font-size: 150%;
+}
+
+#david-image {
+  float: left;
+  margin-right: 20px;
+  margin-top: 5px;
+  border: solid;
 }
