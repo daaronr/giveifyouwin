@@ -29,6 +29,13 @@ body {
 .footer p {
   margin: 10px;
   font-family: "Times New Roman";
+  float: left;
+}
+
+#printable {
+  margin: 10px;
+  font-family: "Times New Roman";
+  float: right;
 }
 
 /* Navbar styling */
@@ -70,25 +77,33 @@ body {
   font-family: "Helvetica Neue";
   font-weight: bold;
   font-size: 300%;
+  padding: 5%;
 }
 
 #mainContent h3 {
   font-family: "Helvetica Neue";
   font-weight: bold;
   font-size: 250%;
+  padding: 2%;
 }
 
 #mainContent p {
   font-size: 150%;
   margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 2%;
 }
 
 #mainContent ol {
   font-size: 150%;
 }
 
+#mainContent ul {
+}
+
 #mainContent ul > li {
   font-size: 150%;
+  padding: 10px;
 }
 
 #david-image {
@@ -117,8 +132,17 @@ body {
   text-decoration: none;
 }
 
+#faq-heading i {
+  margin: 5px;
+  padding-top: 10px;
+}
+
 #faq-heading:hover {
   color: rgb(154, 29, 22);
+}
+
+#minus {
+  display: none;
 }
 
 #faq-body {
