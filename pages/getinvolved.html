@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+  integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+  crossorigin="anonymous"></script>
+
+  <!-- Import fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+
+  <!-- Import JS -->
+  <script type="text/javascript" src="../script/jquery-3.2.0.min.js"></script>
+  <script type="text/javascript" src="../script/utils.js"></script>
+
+  <!-- Style sheet(s)-->
+  <link rel="stylesheet" type="text/css" href="../style/main.css">
+  <link rel="stylesheet" type="text/css" href="../style/diagram.css">
+  <link rel="stylesheet" type="text/css" href="../style/font-awesome/css/font-awesome.min.css">
+
+  <title>Give If You Win</title>
+</head>
+
+<body>
+  <header class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 id="mainHeading">Give If You Win</h1>
+      </div>
+    </div>
+    <div class="masthead">
+      <nav>
+        <ul class="nav nav-justified">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="findoutmore.html">Find out more</a></li>
+          <li><a href="behindthis.html">Who is behind this?</a></li>
+          <li class="active"><a href="getinvolved.html">Get involved</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container-fluid" id="mainContent">
+    <div class="container">
+        <div class="col-md-2"> </div>
+        <div class="col-md-8">
+          <h2 class="text-center">How can we try this, and what is the benefit to us?</h2>
+          <p>
+            David Reinstein is eager to help you implement this, and to test which methods work best for you, your employees,
+            and the charities you care about. <a href="mailto:d.reinstein@exeter.ac.uk?Subject=Get%20involved%20in%20Give%20if%20you%20win">Contact him</a>
+            to discuss this further. Benefits include:
+          </p>
+          <div id="benefit-diagram">
+            <div class="diagram-left">
+              <h3 id="heading"><i class="fa fa-thumbs-up"></i>  CSR</h3>
+              <p>
+                Your organisation will contribute to society through advancing research and
+                promoting charitable giving. This is a great means of going beyond the regulatory
+                minimum and showing good will in a post-2008 world.
+              </p>
+            </div>
+            <div class="diagram-right">
+              <h3 id="heading"><i class="fa fa-lightbulb-o"></i>  Innovation</h3>
+              <p>
+                Some of the research can be <b>tailored towards your organisation's specific goals</b>. You will gain
+                from sharing ideas and tools with innovative researchers, which can help you achieve your
+                organisation's goals.
+              </p>
+            </div>
+            <div id="centre-logo">
+              <img src="../media/EUBS_logo.jpg" id="business-school-icon">
+            </div>
+            <div class="diagram-left">
+              <h3 id="heading"><i class="fa fa-television"></i>  Good publicity</h3>
+              <p>
+                Research stemming from this project will lead to a variety of popular, policy-oriented and academic
+                publications. Being featured in them will <b>give you exposure</b> and be a boost to your image a
+                thought-leader and innovator.
+              </p>
+            </div>
+            <div class="diagram-right">
+              <h3 id="heading"> <i class="fa fa-handshake-o"></i>  Building relationships</h3>
+              <p>
+                Working with researchers from the University of Exeter Business School is an opportunity to build
+                <b>mutually-beneficial relationships</b>, which will increase your organisation's profile, and present
+                it with exciting opportunities in the future.
+              </p>
+            </div>
+          </div>
+
+          <h2 class="text-center">Example design for an implementation</h2>
+          <p>Fundraisers make specific appeals to employees who anticipate an unknown potential bonus
+          being revealed and awarded at a certain time (e.g. 25 December). We will randomly assign employees
+          into three groups.</p>
+            <ul>
+              <li><b>A1 - </b><i>‘Give from known bonus’</i>:  These employees are asked on 10 January, after they
+                know their bonus, to donate a portion of it, to be collected in one week (17 January).</li><br>
+              <li><b>A2 - </b><i>‘Give known bonus in 3 months’</i>:  Asked on 10 January, after bonus is learned,
+                to donate a portion of it, to be collected in three months.</li><br>
+              <li><b>B  - </b><i>‘Give from unknown bonus in 3 months’</i>:  Asked on 10 November (before they know what
+                their bonus will be) to pledge a portion of their unanticipated potential bonus, conditionally
+                on the size of the bonus, to be collected on 17 January.  Depending on feasibility, (i) the
+                committed amount could be directly and automatically deducted from any bonus, or (ii) the employee
+                could merely be reminded of their previous commitment after receiving their bonus.</li><br>
+            </ul>
+
+          <div id="faq-heading">
+            <h2 class="text-center">Anticipated Questions (FAQ)
+              <i class="fa fa-plus-circle" id="plus" aria-hidden="true"></i>
+              <i class="fa fa-minus-circle" id="minus" aria-hidden="true"></i>
+            </h2>
+          </div>
+          <div id="faq-body">
+              <h4 class="faq-subheading">How will the administrative costs of this be funded?</h4>
+                <p>Participating organisations are <b>not</b> expected to contribute directly to fund this pilot.
+                  The main source of funding will be an ESRC Impact Acceleration fund.
+                </p>
+                <br>
+
+              <h4 class="faq-subheading">What charity are you fundraising for?</h4>
+                <p>This can involve any charity that your organisation is supporting and enthusiastic about.
+                </p>
+                <br>
+
+              <h4 class="faq-subheading">Will you need access to private employee data?</h4>
+                <p>To analyse this properly, we would need only minimally-descriptive data: the group assigned
+                   (A1, A2, or B - see example design for an implementation), and the amount donated, from each individual. Any data we would analyse would
+                   be stripped of identifying information, and made otherwise unidentifiable.
+                 </p>
+                 <br>
+
+              <h4 class="faq-subheading">I am interested in trying this, but I don’t want to run a trial. Can you help me?</h4>
+                <p>Yes, David Reinstein and the University of Exeter are eager to speak with your organisation
+                   about how you can benefit from this research and this idea, whether or not you are willing to
+                   pursue an experiment or a controlled trial.
+                 </p>
+                 <br>
+
+              <h4 class="faq-subheading">Has anything like this been done before?</h4>
+                 <p>A range of prominent economists and social scientists have worked with firms, fundraisers, and
+                    charitable organisations to investigate and measure ‘what works.’ These have yielded highly
+                    interesting and practical results. For example:
+                    <ul>
+                       <li><a href = "https://www.povertyactionlab.org/evaluation/effect-matching-ratios-charitable-giving-united-states" target = "_blank">Dean Karlan and John List</a>
+                         worked with a prominent US nonprofit to run an experiment involving a major mail solicitation to over
+                         50,000 prior donors. They found that the presence of  a ‘matching grant’ from a third party boosted
+                         response rates by about 2% and revenue per solicitation by about $1, but increasing the match rate did not
+                         have any additional effect.</li> <br>
+                       <li><a href = "http://www.ucl.ac.uk/~uctpimr/research/opera_matching.pdf" target = "_blank">Steffen Huck and Imran Rasul</a>
+                         worked with on a postal fundraising campaign sent to 24,000 regular attendees at Bavarian State Opera House.
+                         Their result: “if charitable organizations can use lead gifts as they wish, our results show that they
+                         maximize donations given by simply announcing the presence of a lead gift.”</li> <br>
+                       <li><a href = "http://www.sciencedirect.com/science/article/pii/S0047272711000764" target = "_blank">Anna Breman</a>
+                         worked with two development charities (Diakonia and Save the Children) running a telephone solicitation in
+                         Sweden, involving 7710 existing regular donors. Result: Asking donors to increase their donation amounts
+                         starting in two months–rather than immediately–led to a 4% higher success rate and £0.50 more raised per
+                         month per donor.</li>
+                     </ul>
+                   </p>
+                   <br>
+
+                <h4 class="faq-subheading">What is your experience with this?</h4>
+                   <p>Before joining the University of Exeter as a Senior Lecturer in Economics David Reinstein lectured
+                      at the University of Essex, where he helped found the ESSExLab and served as Lab Director. He has
+                      run laboratory and field experiments in the USA, UK, and Germany, including working with the
+                      Behavioural Insights Team, the Brixton Pound, Mid Essex Hospital Services NHS Trust and the HMRC.
+                      He has presented this and other research at a variety of venues and conferences, for academic,
+                      industry professionals, and policymakers, including the University of Oxford, the EC-JRC Vaccination
+                      Workshop,  the ESRC ‘Generosity and Well-Being’ workshop 2013, the Royal Economics Society, at the
+                      British Academy ‘Nudge and Beyond’ workshop.
+                    </p>
+                    <br>
+
+                 <h4 class="faq-subheading">I am interested in trying new fundraising techniques, but not involving bonuses or winnings. What other tools can I use or test?</h4>
+                    <p>Recent work supports several innovative approaches and offers avenues to test, including:</p>
+                        <ul>
+                          <li>Variations in the social environment, anonymity, and potential for recognition for donors;
+                              particularly making individual donations public, by default or by ‘opt-in.</li><br>
+                          <li>Offering donors tangible impact, influence, and choice over how their funds are used.</li><br>
+                          <li>Optimising the timing of charitable asks (does one appeal crowd out another?).</li>
+                        </ul>
+
+                <p class="text-center" id="faq-close">Close FAQ</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>This project is ESRC-funded. <a href="http://www.esrc.ac.uk/" target="_blank"> Find out more about the ESRC.</a></p>
+      <a href="pages/printable.html" id="printable">Printable summary</a>
+    </div>
+  </footer>
+
+</body>
+</html>

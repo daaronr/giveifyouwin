@@ -1,0 +1,51 @@
+#benefit-diagram {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  border: solid 1.5px;
+}
+
+.diagram-left {
+  width: 48%;
+  border: solid 1.5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 20px;
+  background-color: rgba(204, 204, 204, 0.7);
+}
+
+.diagram-right {
+  width: 48%;
+  border: solid 1.5px;
+  margin-left: auto;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 20px;
+  background-color: rgba(204, 204, 204, 0.7);
+}
+
+#centre-logo {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#business-school-icon {
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.diagram-left > #heading, .diagram-right > #heading {
+  text-align: center;
+  font-size: 200%;
+}
+
+.diagram-left > p, .diagram-right > p {
+  text-align: justify;
+  padding: 10px;
+}
