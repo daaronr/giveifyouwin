@@ -1,5 +1,10 @@
-body {  
-   font-family: 'Open Sans', sans-serif;
+body {
+  font-family: Merriweather;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
    margin-top: 15px;
 }
 
@@ -61,11 +66,11 @@ body {
 }
 
 .contact-details ul li a {
- font-size: 1.3em;   
+ font-size: 1.3em;
 }
 
 .contact-details ul li a:hover {
- color: white;   
+ color: white;
 }
 .project-details h4 {
 font-weight: bold;
@@ -76,11 +81,11 @@ font-weight: bold;
 }
 
 .more-details a {
- font-size: 1.5em;  
+ font-size: 1.5em;
 }
 
 .more-details ul li a:hover {
- color: white;  
+ color: white;
 }
 
 .additional {
