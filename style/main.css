@@ -32,12 +32,6 @@ body {
   float: left;
 }
 
-#printable {
-  margin: 10px;
-  font-family: "Times New Roman";
-  float: right;
-}
-
 /* Navbar styling */
 
 .masthead {
@@ -59,6 +53,14 @@ body {
 
 .nav-justified > .active {
   background-color: rgba(99, 100, 100, 0.25);
+}
+
+/*
+  footer styling
+*/
+
+.footer .col-md-5, .footer .col-md-2 {
+  padding: 5px;
 }
 
 /* Element-specific styling */
